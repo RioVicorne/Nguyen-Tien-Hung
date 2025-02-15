@@ -1,0 +1,45 @@
+body{
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+}
+h1{
+      text-align: center;
+      color: red;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+}
+h3{
+      color: maroon;
+      border-bottom: 2px solid reD;
+      padding-bottom: 5px;
+      width: 150px;
+}
+p{
+      color: teal;
+      line-height: 1.6;
+      text-align: justify;
+}
+.gioi-thieu, .noi-dung {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+}
+.image-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-top: 20px;
+}
+.image-container img {
+      width: 30%;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+}
+.image-container img:hover {
+      transform: scale(1.05);
+}
