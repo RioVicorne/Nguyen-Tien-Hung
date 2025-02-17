@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Trang web</title>
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #17caa3;
+    padding: 50px 0;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 0 25px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+video{
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 cột đều */
+    grid-template-rows: 1fr 1fr; /* 2 hàng đều */
+    grid-gap: 20px; /* Khoảng cách giữa các item */
+    justify-items: center; /* Căn giữa các item */
+    align-items: start; /* Căn các item lên trên cùng */
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.passages {
+    font-family: monospace;
+    padding: 50px;
+}
+
+.passage {
+    background-color: rgba(255, 255, 0, 0.658);
+    padding: 20px;
+    margin: 10px;
+    width: 90%; /* Đảm bảo các passage có độ rộng không quá lớn */
+}
+
+.passage h1 {
+    margin-bottom: 10px;
+}
+
+h1,p{
+	text-align: center;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="nav1.html">Bài hát</a></li>
+            <li><a href="thihau.html">Liên hệ</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="passage">
+            <h1>Ngày Tết Nhà Giáo</h1>
+            <p>Ngày vui xin chúc các Cô Thầy <br>
+                Mạnh khỏe, bình an, giọng hát hay <br>
+                Họp mặt cùng nhau vui tiệc nhỏ <br>
+                Hoa tươi, chúc tụng thật đong đầy.</p>
+        </div>
+        <div class="passage">
+            <h1>Lá Nhuộm Tóc Thầy</h1>
+            <p>
+                Về trường mừng đón huân chương <br>
+                Gặp thầy, gặp bạn, tình thương dạt dào <br>
+                Lâng lâng cảm xúc dâng trào <br>
+                Tóc thầy điểm bạc khi nào chẳng hay.</p>
+        </div>
+        <div class="passage">
+            <h1>Ơn Thầy</h1>
+            <p>
+                Hạnh phúc vinh quang bởi các thầy <br>
+                Vì đời sự nghiệp ấy trồng cây <br>
+                Cho dù sóng gió không hề nản <br>
+                Cám dỗ dòng đời vẫn cứ say.</p>
+        </div>
+        <div class="passage">
+            <h1>Ước Vọng 20/11</h1>
+            <p>
+                Bầu trời ngàn sao lấp lánh <br>
+                Lung linh ước vọng học trò <br>
+                Mái trường long lanh mắt sáng <br>
+                Ngời ngời ước vọng thầy cô...</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,45 +1,88 @@
-body{
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 20px;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
 }
-h1{
-      text-align: center;
-      color: red;
-      text-transform: uppercase;
-      margin-bottom: 20px;
+h1 {
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
-h3{
-      color: maroon;
-      border-bottom: 2px solid reD;
-      padding-bottom: 5px;
-      width: 150px;
+h3 {
+  color: maroon;
+  border-bottom: 2px solid reD;
+  padding-bottom: 5px;
+  width: 150px;
 }
-p{
-      color: teal;
-      line-height: 1.6;
-      text-align: justify;
+p {
+  color: teal;
+  line-height: 1.6;
+  text-align: justify;
 }
-.gioi-thieu, .noi-dung {
-      background: white;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      margin-bottom: 20px;
+.gioi-thieu,
+.noi-dung {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 .image-container {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 .image-container img {
-      width: 30%;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      transition: transform 0.3s;
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
 }
 .image-container img:hover {
-      transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  width: 100%;
+  padding: 50px 0;
+  background-color: #17caa3;
+  border-bottom: 2px solid transparent;
+}
+.navbar a {
+  transition: 0.3s ease;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid black;
+  color: yellow;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin: 0 25px; /* Tạo khoảng cách giữa các items */
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black; /* hoặc màu bạn muốn */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+
 }
